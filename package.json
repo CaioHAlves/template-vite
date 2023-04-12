@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite --mode dev",
-    "staging": "tsc && vite build --mode staging && vite preview",
-    "production": "tsc && vite build --mode production && vite preview"
+    "staging": "tsc && vite build --mode staging",
+    "production": "tsc && vite build --mode production",
+    "preview": "vite preview"
   },
   "dependencies": {
     "@material-ui/core": "^4.12.4",
