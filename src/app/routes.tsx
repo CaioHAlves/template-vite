@@ -1,6 +1,6 @@
 import { Redirect, Route, Switch } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { InitialPage } from '../pages';
+import { Login } from '../pages';
 import '../i18n'
 import { useEffect } from 'react';
 
@@ -48,7 +48,7 @@ const Rotas = () => {
 
   return (
     <Switch>
-      <Route exact path="/" component={InitialPage} />
+      <Route exact path="/" component={Login} />
     </Switch>
   )
 }

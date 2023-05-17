@@ -29,7 +29,7 @@ const persistor = persistStore(store)
 function persistorInit() {
   getStoredState({
     storage,
-    key: 'contagemDigital'
+    key: 'template-vite'
   })
 }
 
